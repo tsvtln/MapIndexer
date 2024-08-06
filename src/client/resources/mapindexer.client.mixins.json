@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "xyz.skyfalls.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientLoginNetworkHandlerMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "IClientPlayerInteractionManager",
+    "MinecraftClientMixin",
+    "IDefaultPosArgument",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
